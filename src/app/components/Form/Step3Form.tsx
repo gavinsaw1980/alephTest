@@ -48,7 +48,7 @@ export default function Step3Form () {
                 <p className='font-normal text-sm text-sky-700 mb-2'>Age: <span className='text-orange-500'>{ageDisplay}</span></p>
                 <p className='font-normal text-sm text-sky-700'>Phone: <span className='text-orange-500'>{phoneDisplay}</span></p>
             </div>
-            <div className="w-full">
+            <div className="w-full bg-white rounded-lg p-5 shadow-lg">
                 <form action="" method="post" onSubmit={handleSubmit(onSubmit, onError)} >
                     <div className="mb-4">
                         <select 

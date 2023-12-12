@@ -40,7 +40,7 @@ export default function Step1Form() {
         <div className="w-full mb-10">
           <h1 className="font-thin text-xl lg:text-3xl text-left">Step 1: Tell Us More About You</h1>
         </div>
-        <div className="w-full">
+        <div className="w-full bg-white rounded-lg p-5 shadow-lg">
           <form action="" method="post" onSubmit={handleSubmit(onSubmit, onError)} >
             <div className="mb-2">
               <input 

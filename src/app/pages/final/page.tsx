@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function Display() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between p-24 mt-32">
+    <div className="flex min-h-screen flex-col items-center justify-between p-10 mt-32">
         <DisplayData />
     </div>
   )

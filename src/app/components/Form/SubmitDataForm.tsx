@@ -71,10 +71,10 @@ export default function SubmitDataForm(){
 
     return (
         <div className='flex flex-col'>
-            <div className="w-full mb-5">
+            <div className="w-full mb-10">
                 <h1 className="font-thin text-xl lg:text-3xl text-left">step 4: Submit Data to Json</h1>
             </div>
-            <div className='w-full mb-10'>
+            <div className='w-full mb-5 bg-white rounded-lg p-5 shadow-lg'>
                 <p className='font-normal text-sm text-sky-700 mb-2'>Name: <span className='text-orange-500'>{nameDisplay}</span></p>
                 <p className='font-normal text-sm text-sky-700 mb-2'>Email: <span className='text-orange-500'>{emailDisplay}</span></p>
                 <p className='font-normal text-sm text-sky-700 mb-2'>Age: <span className='text-orange-500'>{ageDisplay}</span></p>

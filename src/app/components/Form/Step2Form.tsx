@@ -41,7 +41,7 @@ export default function Step2Form() {
         <p className='font-normal text-sm text-sky-700 mb-2'>Name: <span className='text-orange-500'>{nameDisplay}</span></p>
           <p className='font-normal text-sm text-sky-700 mb-2'>Email: <span className='text-orange-500'>{emailDisplay}</span></p>
         </div>
-        <div className="w-full">
+        <div className="w-full bg-white rounded-lg p-5 shadow-lg">
           <form action="" method="post" onSubmit={handleSubmit(onSubmit, onError)} >
             <div className="mb-4">
               <input 

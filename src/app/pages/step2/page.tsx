@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function Step2() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between p-24 mt-32">
+    <div className="flex min-h-screen flex-col items-center justify-between p-10 mt-32">
       <Form />
     </div>
   )
